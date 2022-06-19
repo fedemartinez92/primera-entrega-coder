@@ -7,74 +7,13 @@
 
 /* -------------------------------- HEADER Y NAV DE LAS PAGINAS -------------------------------- */
 
-.header{
-    display: grid;
-    grid-template-columns: 1fr 2fr 1fr;
-    background: linear-gradient(180deg, #9F9F9F 0%, rgba(255, 255, 255, 0.9) 94.27%);
-    height: 188px;
-    width: auto;
-;
-
-}
-
-/* LOGO STARNUTRITION DEL HEADER */
-
-.headerLogo{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.headerLogo img{
-    width: 170px;
-}
-
-/* LISTAS NAV Y REDES SOCIALES */
-
-ul{
-    display: flex;
-    list-style-type: none;
-    align-items: center;
-    justify-content: center;
-}
-
-/* MENU NAVEGADOR DEL HEADER */
-
-.headerNav{
-    display: flex;
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 22px;
-    line-height: 24px;
-    text-align: center;
-    align-items: center;
-    margin-right: auto;
-    margin-left: auto;
-}
-
-.headerNav li{
-    margin: 15px;
-}
-
-.headerNav a{
-    text-decoration: none;
-    color: black;
-}
-
-/* REDES SOCIALES DEL HEADER */
-
-.headerRedes{
-    display: flex;
-    align-items: center;
-}
-
-.headerRedes li{
+.nav-link{
     margin: 10px;
+    transition: all 0.7s;
 }
 
-.headerRedes Img{
-    width: 37px;
+.nav-link:hover{
+    transform: scale(1.1);
 }
 
 /* --------------------------------- FOOTER DE LAS PAGINAS ------------------------------------*/
@@ -370,7 +309,7 @@ footer p{
     
     /*----------------HEADER-----------------*/
 
-    .header{
+    /*.header{
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
@@ -395,7 +334,7 @@ footer p{
 
     .headerNav ul li{
         padding: 0px;
-    }
+    }*/
 
     /*----------------main index----------------*/
 
