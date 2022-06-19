@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>StarNutrition Productos</title>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
     <link rel="stylesheet" href="../assets/css/style.css">
 </head>
@@ -13,14 +14,14 @@
     <header class="header">
         <nav class="navbar navbar-expand-lg bg-light">
             <div class="container-fluid">
-                <a class="navbar-brand col-lg-4" href="../index.html">
+                <a class="navbar-brand col-lg-4" href="../index.html" data-aos="fade-down">
                     <img src="../assets/imagenes/logo.png" alt="logo starnutrition" width="140" height="">
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
 
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <div class="collapse navbar-collapse" id="navbarSupportedContent" data-aos="fade-down">
                     <ul class="navbar-nav col-lg-4">
                         <li class="nav-item">
                             <a class="nav-link active" aria-current="page" href="./productos.html">PRODUCTOS</a>
@@ -46,7 +47,31 @@
 
         <section class="productos">
 
-            <article class="productosArt">
+            <div class="card" style="width: 22rem;" data-aos="flip-left">
+                <img src="../assets/imagenes/proteina.jpg" class="card-img-top" alt="proteina">
+                <div class="card-body">
+                    <h5 class="card-title">PLATINUM WHEY PROTEIN</h5>
+                    <p class="card-text">Suplemento dietario en polvo dietético para preparar bebida a base de proteínas de suero.</p>
+                </div>
+            </div>
+
+            <div class="card" style="width: 22rem;" data-aos="flip-left">
+                <img src="../assets/imagenes/quemador.jpg" class="card-img-top" alt="quemador">
+                <div class="card-body">
+                    <h5 class="card-title">THERMO FUEL MAX</h5>
+                    <p class="card-text">Suplemento dietario a base de extractos vegetales y vitaminas, en cápsulas.</p>
+                </div>
+            </div>
+
+            <div class="card" style="width: 22rem;" data-aos="flip-left">
+                <img src="../assets/imagenes/barras-proteinas.jpg" class="card-img-top" alt="barras proteina">
+                <div class="card-body">
+                    <h5 class="card-title">PROTEIN SNACK</h5>
+                    <p class="card-text">Suplemento dietario a base de proteínas de suero lácteo.</p>
+                </div>
+            </div>
+
+            <!--<article class="productosArt">
                 <img src="../assets/imagenes/proteina.jpg" alt="proteina">
                 <h2>PLATINUM WHEY PROTEIN</h2>
                 <p>Suplemento dietario en polvo dietético para preparar bebida a base de proteínas de suero.</p>
@@ -62,7 +87,7 @@
                 <img src="../assets/imagenes/quemador.jpg" alt="quemador">
                 <h2>THERMO FUEL MAX</h2>
                 <P>Suplemento dietario a base de extractos vegetales y vitaminas, en cápsulas.</P>
-            </article>
+            </article>-->
 
         </section>
 
@@ -72,6 +97,10 @@
         <p><a href="mailto:contacto@startnutrition.com">contacto@startnutrition.com</a></p>
         <p>By Federico Martinez</p>
     </footer>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 </html>
