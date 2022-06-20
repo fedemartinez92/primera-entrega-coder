@@ -9,11 +9,19 @@
 
 .nav-link{
     margin: 10px;
-    transition: all 0.7s;
+    font-size: 18px;
+    transition: all 0.5s;
+    border-radius: 20px;
 }
 
 .nav-link:hover{
     transform: scale(1.1);
+    background-color: #3b297b;
+    border-radius: 20px;
+}
+
+.navbar-nav .nav-link.active:hover{
+    color: rgba(251, 251, 251, 0.9);
 }
 
 /* --------------------------------- FOOTER DE LAS PAGINAS ------------------------------------*/
@@ -50,17 +58,17 @@ footer p{
 }
 
 .seccionFrases h3{
-    font-family: 'Inter';
+    font-family: 'segoe ui symbol';
     font-style: normal;
     font-weight: 700;
     font-size: 20px;
     text-align: center;
     color: #000000;
-    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    text-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
 }
 
 .seccionFrases h4{
-    font-family: 'Inter';
+    font-family: 'segoe ui symbol';
     font-style: normal;
     font-weight: 300;
     font-size: 20px;
@@ -75,18 +83,16 @@ footer p{
     display: flex;
     top: 50%;
     height: 150px;
-    background: #A7A5A5;
+    color: #FFFFFF;
+    text-shadow: 0px 0px 4px rgba(0,0,0,0.60);
+    background: rgb(48,48,52);
+    background: linear-gradient(40deg, rgba(48,48,52,1) 0%, rgba(98,89,124,1) 32%, rgba(33,20,78,1) 100%);
     text-align: center;
     align-items: center;
     justify-content: center;
 }
 
 /*--------------------------------------- PRDUCTOS --------------------------------------------*/
-
-.productos{
-    display: flex;
-    justify-content: space-between;
-}
 
 .card{
     display: flex;
@@ -95,56 +101,17 @@ footer p{
     align-items: center;
     text-align: center;
     transition: all 0.7s;
+    box-shadow: 0px 0px 25px -10px rgba(0,0,0,0.60);
 }
 
 .card:hover{
     transform: scale(1.1);
 }
 
-/*.productos{
-    display: flex;
-    flex-wrap: wrap;
-    margin: 50px;
-    justify-content: space-between;
-    text-align: center;
-    align-content: center;
-}*/
-
-.productosArt{
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    padding: 20px;
-    margin: 20px;
-    align-items: center;
-    justify-items: center;
-    border-style: solid;
-    border-color: #07070721;
-    border-radius: 10px;
-}
-
 .productos img{
     width: 200px;
 }
 
-.productos p{
-    color: black;
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 300;
-    font-size: 20px;
-    line-height: 24px;
-    width: 300px;
-}
-
-.productos h2{
-    font-family: 'Inter';
-    font-style: italic;
-    font-weight: 600;
-    font-size: 24px;
-    line-height: 50px;
-    color: #000000;
-}
 
 /*--------------------------------------- GREEN TEAM --------------------------------------------*/
 
@@ -281,147 +248,4 @@ footer p{
 .submit{
     width: 100px;
     align-items: center;
-}
-
-
-/*--------------------------------------------- MOBILE RESPONSIVE 992px (bootstraps large)--------------------------------------*/
-
-@media screen and (max-width:992px) {
-    
-    /*----------------HEADER-----------------*/
-
-    /*.header{
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-        align-content: stretchs;
-        height: auto;
-    }
-
-    .headerLogo{
-        margin: 10px;
-    }
-
-    .headerRedes{
-        display: none;
-    }
-
-    .headerNav{
-        font-size: 18px;
-    }
-    .headerNav ul{
-        flex-wrap: wrap;
-    }
-
-    .headerNav ul li{
-        padding: 0px;
-    }*/
-
-    /*----------------main index----------------*/
-
-    .seccionTienda{
-        width: 100%;
-
-    }
-
-    .seccionTienda h1{
-        display: none;
-    }
-
-    .seccionFrases{
-        display: flex;
-        flex-direction: column;
-        flex-wrap: wrap; 
-        height: auto;
-    }
-
-    .articleFrases{
-        width: 100%;
-        margin: 20px;
-    }
-
-    /*---------------FOOTER-------------------*/
-
-    footer{
-        display: flex;
-        flex-wrap: wrap;
-    }
-
-    footer p{
-        margin-left: 10px;
-        margin-right: 10px;
-        font-size: 16px;
-    }
-
-    /*---------------PRODUCTOS-----------------*/
-
-    .productos{
-        display: flex;
-        flex-direction: column;
-    }
-
-    /*-------------GREEN TEAM------------------*/
-
-    .greenTeam article{
-        display: flex;
-        flex-direction: column;
-        margin: 5px;
-        align-items: center;
-        margin-bottom: 80px;
-    }
-
-    .imgGreenTeam{
-        display: flex;
-        align-items: center;
-    }
-    
-    .nombreGreenTeam{
-        display: flex;
-        align-items: center;
-        margin: 0px;
-    }
-
-    .descGreenTeam{
-        margin: 0px;
-        text-align: center;
-    }
-
-    /*---------------------PROPOSITO------------------*/
-
-    .proposito{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .proposito img{
-        width: 300px;
-        margin: 0px;
-    }
-
-    /*---------------------CONTACTO-------------------*/
-
-
-
-    .contacto{
-        display: flex;
-        flex-direction: column;
-        margin: 10px;
-    }
-
-    .formulario{
-        flex-wrap: wrap;
-        margin: 0px;
-        margin-top: 20px;
-        width: 90%;
-    }
-
-    .btnEnviar{
-        display: flex;
-        align-items: center;
-    }
-
-    .contacto img{
-        width: 90%;
-    }
 }
