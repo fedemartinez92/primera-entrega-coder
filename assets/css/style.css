@@ -26,6 +26,15 @@
 
 /* --------------------------------- FOOTER DE LAS PAGINAS ------------------------------------*/
 
+.redesFooter{
+    transition: 0.5s;
+
+}
+
+.redesFooter img:hover{
+    transform: scale(1.15);
+}
+
 /* INDEX MAIN FRASES MARKETING */
 
 .seccionFrases{
@@ -118,48 +127,4 @@
 
 /*----------------------------------- CONTACTO --------------------------------*/
 
-.contacto{
-    display: flex;
-    flex-direction: row;
-    margin: 50px;
-    align-items: center;
-    justify-content: center;
-}
 
-.contacto img{
-    width: 400px;
-}
-
-.formulario{
-    display: flex;
-    flex-direction: column;
-    width: 400px;
-    margin-left: 50px;
-}
-
-.formulario div{
-    display: flex;
-    flex-direction: column;
-    padding: 10px;
-}
-
-.contacto textarea{
-    height: 150px;
-    resize: none;
-}
-
-.contacto label{
-    font-family: 'Inter';
-    font-style: normal;
-    font-size: 20px;
-    line-height: 24px;
-    align-items: center;
-    color: black;
-    height: 24px;
-
-}
-
-.submit{
-    width: 100px;
-    align-items: center;
-}

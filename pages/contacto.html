@@ -45,33 +45,42 @@
 
         <h1 class="bannerCabecera">CONTACTO</h1>
 
-        <section class="contacto">
+        <section data-aos="zoom-out">
+            <div class="container text-start mt-5 mb-5 fw-semibold">
+                <div class="row mt-3 justify-content-center flex-column flex-lg-row align-content-center">
+                    <div class="col-5 m-4">
+                        <img class="img-fluid" src="../assets/imagenes/contacto.png" alt="contacto">
+                    </div>
 
-            <img src="../assets/imagenes/contacto.png" alt="contacto">
+                    <div class="col-5 m-4">
+                        <form>
+                            <div class="form-outline mb-4">
+                                <label class="form-label" for="form4Example1">Nombre y Apellido</label>
+                                <input type="text" id="form4Example1" class="form-control" />
+                            </div>
 
-            <form action="" class="formulario">
+                            <div class="form-outline mb-4">
+                                <label class="form-label" for="form4Example2">Email</label>
+                                <input type="email" id="form4Example2" class="form-control" />
+                            </div>
 
-                <div>
-                    <label for="nombre">Nombre y Apellido</label>
-                    <input type="text" name="nombre" id="nombre" placeholder="Nombre y Apellido">
+                            <div class="form-outline mb-4">
+                                <label class="form-label" for="form4Example3">Mensaje</label>
+                                <textarea class="form-control" id="form4Example3" rows="4"></textarea>
+                            </div>
+
+                            <div class="form-check d-flex justify-content-center mb-4">
+                                <input class="form-check-input me-2" type="checkbox" value="" id="form4Example4" checked />
+                                <label class="form-check-label" for="form4Example4">
+                                Enviar una copia a mi Email.
+                                </label>
+                            </div>
+
+                            <button type="submit" class="btn btn-primary btn-block mb-4">Enviar</button>
+                        </form>
+                    </div>
                 </div>
-
-                <div>
-                    <label for="email">Email</label>
-                    <input type="email" name="email" id="email" placeholder="Email">
-                </div>
-
-                <div>
-                    <label for="comentario">Escribe un comentario</label>
-                    <textarea name="comentario" id="comentario" placeholder="Escribe un comentario.."></textarea>
-                </div>
-
-                <div class="btnEnviar">
-                    <input type="submit" value="ENVIAR" class="submit">
-                </div>
-
-            </form>
-
+            </div>
         </section>
 
     </main>
@@ -81,7 +90,7 @@
             <div class="me-5 d-none d-lg-block">
                 <span>Siguenos en nuestras redes sociales</span>
             </div>
-            <div>
+            <div class="redesFooter">
                 <a href="https://www.instagram.com" target="_blank" class="me-4 text-reset text-decoration-none">
                     <img src="../assets/imagenes/instagram.png" alt="instagram">
                 </a>
