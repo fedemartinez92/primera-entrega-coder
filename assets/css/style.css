@@ -25,20 +25,9 @@
 }
 
 /* --------------------------------- FOOTER DE LAS PAGINAS ------------------------------------*/
-
-footer{
-    grid-area: footer;
-    display: flex;
-    background: #D9D9D9;
-    justify-content: space-between;
-
+a{
+    color: black;
 }
-
-footer p{
-    margin-left: 80px;
-    margin-right: 80px;
-}
-
 /* INDEX MAIN FRASES MARKETING */
 
 .seccionFrases{
@@ -115,52 +104,15 @@ footer p{
 
 /*--------------------------------------- GREEN TEAM --------------------------------------------*/
 
-.greenTeam{
-    display: flex;
-    flex-direction: column;
-    margin: 50px;
-    
+.conteiner{
+    transition: 0.5s;
+}
+
+.conteiner:hover{
+    transform: scale(1.1);
 
 }
 
-.greenTeam article{
-    display: grid;
-    margin: 50px;
-    grid-template-areas: 
-    "imgGreenTeam nombreGreenTeam nombreGreenTeam"
-    "imgGreenTeam descGreenTeam descGreenTeam";
-
-}
-
-.imgGreenTeam{
-    grid-area: imgGreenTeam;
-    width: 200px;
-}
-
-.nombreGreenTeam{
-    grid-area: nombreGreenTeam;
-    font-family: 'Inter';
-    font-style: italic;
-    font-weight: 600;
-    font-size: 24px;
-    line-height: 29px;
-    color: #000000;
-    margin-left: 20px;
-    height: 60px;
-
-}
-
-.descGreenTeam{
-    grid-area: descGreenTeam;
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 40px;
-    color: #000000;
-    margin-left: 20px;
-
-}
 
 /*------------------------------------- PROPOSITO ---------------------------------*/
 
