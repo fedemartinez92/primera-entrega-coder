@@ -1,0 +1,7 @@
+.conteiner{
+    transition: 0.5s;
+    
+    &:hover{
+    transform: scale($scale);
+    }
+}
