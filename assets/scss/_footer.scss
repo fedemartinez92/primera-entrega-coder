@@ -1,7 +1,13 @@
 .redesFooter{
-    transition: 0.5s;
+    li{
+        transition: 0.5s;
 
-    &:hover{
-        transform: scale($scale);
+        &:hover{
+            transform: scale($scale);
+        }
     }
+}
+
+.copyright{
+    background-color: rgba(0, 0, 0, 0.05);
 }

@@ -1,3 +1,9 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
 .nav-link {
   margin: 10px;
   font-size: 18px;
@@ -14,11 +20,19 @@
   color: rgba(255, 255, 255, 0.9);
 }
 
-.redesFooter {
+.logo {
+  width: 140px;
+}
+
+.redesFooter li {
   transition: 0.5s;
 }
-.redesFooter:hover {
+.redesFooter li:hover {
   transform: scale(1.1);
+}
+
+.copyright {
+  background-color: rgba(0, 0, 0, 0.05);
 }
 
 .card {
