@@ -112,4 +112,8 @@
 }
 .conteiner:hover {
   transform: scale(1.1);
+}
+
+.imgCertificado {
+  width: 385px;
 }/*# sourceMappingURL=style.css.map */
