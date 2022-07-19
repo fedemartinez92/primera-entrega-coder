@@ -8,6 +8,7 @@
     text-align: map-get($banner , align );
     align-items: map-get($banner , align );
     justify-content: map-get($banner , justify );
+    margin-bottom: map-get($banner , margin )
 }
 
 .bannerCabeceraSecundario{
