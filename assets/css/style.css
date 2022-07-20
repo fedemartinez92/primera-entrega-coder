@@ -4,42 +4,6 @@
   box-sizing: border-box;
 }
 
-.seccionFrases {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background: linear-gradient(180deg, #FFFFFF 0%, #9F9F9F 100%);
-  width: 100%;
-}
-.seccionFrases article {
-  text-align: center;
-  margin-left: auto;
-  margin-right: auto;
-  line-height: 50px;
-}
-.seccionFrases article h2 {
-  font-family: "segoe ui symbol";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 24px;
-  text-align: center;
-  color: #000000;
-  text-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
-}
-.seccionFrases article h2 h3 {
-  font-family: "segoe ui symbol";
-  font-style: normal;
-  font-weight: 300;
-  font-size: 22px;
-  text-align: center;
-  color: #000000;
-  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
-}
-
-.carousel-inner img {
-  width: 100%;
-}
-
 .nav-link {
   margin: 10px;
   font-size: 18px;
@@ -108,4 +72,40 @@
 
 .imgCertificado {
   width: 385px;
+}
+
+.seccionFrases {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(180deg, #FFFFFF 0%, #9F9F9F 100%);
+  width: 100%;
+}
+.seccionFrases article {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  line-height: 50px;
+}
+.seccionFrases article .h2 {
+  font-family: "segoe ui symbol";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1.5rem;
+  text-align: center;
+  color: #000000;
+  text-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
+}
+.seccionFrases article .h2 h3 {
+  font-family: "segoe ui symbol";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 22px;
+  text-align: center;
+  color: #000000;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
+}
+
+.carousel-inner img {
+  width: 100%;
 }/*# sourceMappingURL=style.css.map */
